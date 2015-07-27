@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 23:07:2015 09:50
-saved-by: elvira
+date: 27:07:2015 11:25
+saved-by: emitraka
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: DO_cancer_slim "DO cancer slim"
 subsetdef: DO_MGI_slim "DO_MGI_slim"
@@ -23573,7 +23573,6 @@ xref: SNOMEDCT_2010_1_31:266589005
 xref: SNOMEDCT_2010_1_31:31007005
 xref: UMLS_CUI:C0156344
 xref: UMLS_CUI:C1335160
-is_a: DOID:1100 ! ovarian disease
 is_a: DOID:289 ! endometriosis
 
 [Term]
