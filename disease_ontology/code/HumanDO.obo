@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 27:07:2015 11:25
-saved-by: emitraka
+date: 19:08:2015 16:47
+saved-by: elvira
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: DO_cancer_slim "DO cancer slim"
 subsetdef: DO_MGI_slim "DO_MGI_slim"
@@ -12199,6 +12199,19 @@ xref: ORDO:803
 is_a: DOID:332 ! amyotrophic lateral sclerosis
 created_by: elvira
 creation_date: 2015-07-22T11:37:41Z
+
+[Term]
+id: DOID:0060356
+name: Vici syndrome
+def: "An autosomal recessive disease characterized by callosal agenesis, cataracts, cardiomyopathy, combined\nimmunodeficiency and hypopigmentation. It is caused by mutation in the EPG5 gene located in chromosome 18q12.3." [PMID:21965116, PMID:23222957, url:https\://en.wikipedia.org/wiki/Vici_syndrome]
+synonym: "immunodeficiency with cleft lip/palate, cataract, hypopigmentation, and absent corpus callosum" EXACT []
+xref: ICD10CM:Q87.8
+xref: MSH:C535566
+xref: OMIM:242840
+xref: ORDO:1493
+is_a: DOID:0050737 ! autosomal recessive disease
+created_by: elvira
+creation_date: 2015-08-19T16:22:27Z
 
 [Term]
 id: DOID:0070001
@@ -72737,7 +72750,6 @@ is_a: DOID:182 ! calcinosis
 id: DOID:4737
 name: somatoform disorder
 alt_id: DOID:10133
-alt_id: DOID:13918
 alt_id: DOID:144
 def: "A disease of mental health that involves physical symptoms suggesting a physical illness where the biological or medical cause of the symptoms is indeterminate." [url:http\://allpsych.com/disorders/somatoform/index.html, url:http\://en.wikipedia.org/wiki/Somatoform_disorder]
 synonym: "physiological malfunction arising from mental factor" EXACT []
