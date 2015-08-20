@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:08:2015 16:47
+date: 20:08:2015 17:02
 saved-by: elvira
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: DO_cancer_slim "DO cancer slim"
@@ -12212,6 +12212,39 @@ xref: ORDO:1493
 is_a: DOID:0050737 ! autosomal recessive disease
 created_by: elvira
 creation_date: 2015-08-19T16:22:27Z
+
+[Term]
+id: DOID:0060357
+name: chylomicron retention disease
+def: "A lipid metabolism disorder characterized by malnutrition, failure to thrive, growth failure, vitamin E deficiency and the absence of chylomicrons and apolipoprotein B48 post-prandially. It had an autosomal recessive inheritance pattern and is caused by mutations in the SAR1B gene located in chromosome 5q31.1." [PMID:10521380, PMID:20920215, PMID:3430059, PMID:3792776, url:https\://en.wikipedia.org/wiki/Chylomicron_retention_disease]
+synonym: "Anderson disease" EXACT []
+synonym: "CMRD" EXACT []
+xref: ICD10CM:E78.6
+xref: MSH:C535460
+xref: OMIM:246700
+xref: ORDO:71
+is_a: DOID:3146 ! lipid metabolism disorder
+created_by: elvira
+creation_date: 2015-08-20T12:44:44Z
+
+[Term]
+id: DOID:0060358
+name: multiple acyl-CoA dehydrogenase deficiency
+def: "An inherited metabolic disorder characterized by the body's inability to break down proteins and fats to produce energy. It is a disorder of fatty acid,amino acid, and choline metabolism and has an autosomal recessive inheritance pattern. It is caused by mutations in the ETFA, ETFB and ETFDH genes. It presents three clinical phenotypes: a neonatal-onset form with congenital anomalies (type I), a neonatal-onset form without congenital anomalies (type II), and a late-onset form (type III). The neonatal-onset forms are usually fatal." [PMID:12815589, PMID:22580358, url:http\://ghr.nlm.nih.gov/condition/glutaric-acidemia-type-ii, url:https\://en.wikipedia.org/wiki/Glutaric_acidemia_type_2]
+synonym: "electron transfer flavoprotein deficiency" EXACT []
+synonym: "electron transfer flavoprotein ubiquinone oxidoreductase deficiency" EXACT []
+synonym: "glutaric acidemia type 2" EXACT []
+synonym: "glutaric aciduria type 2" EXACT []
+synonym: "MAD deficiency" EXACT []
+synonym: "MADD" EXACT []
+xref: ICD10CM:E71.3
+xref: ICD9CM:277.85
+xref: MSH:D054069
+xref: OMIM:231680
+xref: ORDO:26791
+is_a: DOID:655 ! inherited metabolic disorder
+created_by: elvira
+creation_date: 2015-08-20T16:23:47Z
 
 [Term]
 id: DOID:0070001
@@ -85807,7 +85840,7 @@ is_obsolete: true
 [Term]
 id: DOID:655
 name: inherited metabolic disorder
-def: "A disease of metabolism that has _material_basis_in enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to inhertied enzyme abnormality." [url:http\://en.wikipedia.org/wiki/Inborn_errors_of_metabolism, url:http\://www.ncbi.nlm.nih.gov/mesh/68008659]
+def: "A disease of metabolism that has _material_basis_in enzyme deficiency or accumulation of enzymes or toxins which interfere with normal function due to inherited enzyme abnormality." [url:http\://en.wikipedia.org/wiki/Inborn_errors_of_metabolism, url:http\://www.ncbi.nlm.nih.gov/mesh/68008659]
 synonym: "Inborn Errors of Metabolism" EXACT [NCI2004_11_17:C34816]
 synonym: "inborn metabolism disorder" EXACT [CSP2005:1849-0057]
 synonym: "Metabolic hereditary disorder" EXACT [SNOMEDCT_2005_07_31:363205007]
