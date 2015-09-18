@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:08:2015 16:58
+date: 17:09:2015 17:16
 saved-by: elvira
 auto-generated-by: OBO-Edit 2.3.1
 subsetdef: DO_cancer_slim "DO cancer slim"
@@ -6626,6 +6626,7 @@ creation_date: 2013-01-16T01:07:02Z
 [Term]
 id: DOID:0050754
 name: ataxia with oculomotor apraxia type 1
+xref: OMIM:208920
 is_a: DOID:0050753 ! cerebellar ataxia
 created_by: lschriml
 creation_date: 2013-01-16T01:07:02Z
@@ -6794,6 +6795,14 @@ xref: OMIM:171300
 is_a: DOID:0060084 ! cell type benign neoplasm
 created_by: lschriml
 creation_date: 2013-02-21T11:40:58Z
+
+[Term]
+id: DOID:0050772
+name: spastic ataxia 1
+xref: OMIM:108600
+is_a: DOID:1441 ! spinocerebellar ataxia
+created_by: lschriml
+creation_date: 2015-09-17T14:42:06Z
 
 [Term]
 id: DOID:0050773
@@ -12954,6 +12963,184 @@ xref: UMLS_CUI:C1856405
 is_a: DOID:655 ! inherited metabolic disorder
 created_by: elvira
 creation_date: 2015-08-20T16:23:47Z
+
+[Term]
+id: DOID:0060359
+name: Sakati-Nyhan syndrome
+def: "An acrocephalosyndactylia characterized by abnormalities in the bones of the legs, congenital heart defects and craniofacial defects and craniosynostosis. The patients suffer from cyanosis and other respiratory and breathing infections." [url:https\://en.wikipedia.org/wiki/Sakati%E2%80%93Nyhan%E2%80%93Tisdale_syndrome]
+synonym: "ACPS with leg hypoplasia" EXACT []
+synonym: "acrocephalopolysyndactyly type 3" EXACT []
+synonym: "acrocephalopolysyndactyly Type III" EXACT []
+synonym: "Sakati-Nyhan-Tisdale syndrome" EXACT []
+xref: ICD10CM:Q87.0
+xref: MeSH:C537227
+xref: OMIM:101120
+xref: ORDO:3128
+is_a: DOID:12960 ! acrocephalosyndactylia
+created_by: elvira
+creation_date: 2015-09-03T14:23:46Z
+
+[Term]
+id: DOID:0060360
+name: hereditary papulotranslucent acrokeratoderma
+def: "A keratosis  of the hands and feet characterized by persistent, asymptomatic, yellowish to white papules and plaques associated with fine-textured scalp hair and an atopic diathesis." [PMID:16409913]
+xref: MeSH:C566323
+xref: OMIM:101840
+is_a: DOID:161 ! keratosis
+created_by: elvira
+creation_date: 2015-09-03T14:36:52Z
+
+[Term]
+id: DOID:0060361
+name: punctate palmoplantar keratoderma
+def: "A palmoplantar keratosis characterized by keratoses with a \"raindrop\" pattern on the palmoplantar surface, skin lesions which may involve the whole of the palmoplantar surface, or may be more restricted in their distribution." [url:https\://en.wikipedia.org/wiki/Palmoplantar_keratoderma#Punctate]
+synonym: "punctate keratosis palmoplantaris" RELATED []
+synonym: "punctate palmoplantar hyperkeratosis" EXACT []
+xref: ORDO:307967
+xref: UMLS_CUI:C1274216
+is_a: DOID:3390 ! palmoplantar keratosis
+created_by: elvira
+creation_date: 2015-09-03T14:50:46Z
+
+[Term]
+id: DOID:0060362
+name: punctate palmoplantar keratoderma type III
+synonym: "acrokeratoelastoidosis of Costa" EXACT []
+synonym: "punctate palmoplantar hyperkeratosis type 3" EXACT []
+synonym: "punctate palmoplantar keratoderma type 3" EXACT []
+xref: ICD10CM:Q82.8
+xref: MSH:C535653
+xref: OMIM:101850
+xref: ORDO:38
+xref: UMLS_CUI:C0545044
+is_a: DOID:0060361 ! punctate palmoplantar keratoderma
+created_by: elvira
+creation_date: 2015-09-03T15:31:19Z
+
+[Term]
+id: DOID:0060363
+name: glycerol kinase deficiency
+def: "An inherited metabolic disorder characterized_by wide range of phenotypic variability; patients can have severe metabolic and CNS abnormalities, while others possess hyperglycerolemia and glyceroluria with no other apparent phenotype. It is caused by mutation in the GK gene on chromosome Xp21." [PMID:22427807, url:https\://en.wikipedia.org/wiki/Glycerol_kinase_deficiency]
+xref: ICD10CM:E74.8
+xref: MSH:C538138
+xref: OMIM:307030
+xref: ORDO:408
+xref: UMLS_CUI:C0574108
+is_a: DOID:655 ! inherited metabolic disorder
+created_by: elvira
+creation_date: 2015-09-17T15:45:20Z
+
+[Term]
+id: DOID:0060364
+name: Galloway-Mowat syndrome
+def: "An autosomal recessive disease characterized_by is a rare autosomal recessive disease, characterized by microcephaly with brain anomalies including CA in some cases, intellectual disability, and early-infantile-onset nephrotic syndrome." [PMID:20083416, PMID:26123727, url:https\://en.wikipedia.org/wiki/Galloway_Mowat_syndrome]
+synonym: "Galloway syndrome" EXACT []
+synonym: "microcephaly, hiatal hernia and nephrotic syndrome" EXACT []
+synonym: "nephrosis-microcephaly syndrome" EXACT []
+synonym: "nephrosis-neuronal dysmigration syndrome" EXACT []
+xref: ICD10CM:Q04.3
+xref: MSH:C537548
+xref: OMIM:251300
+xref: ORDO:2065
+xref: UMLS_CUI:C0795949
+is_a: DOID:0050737 ! autosomal recessive disease
+created_by: elvira
+creation_date: 2015-09-17T16:00:31Z
+
+[Term]
+id: DOID:0060365
+name: mandibulofacial dysostosis with alopecia
+def: "A syndrome characterized_by malar and mandibular hypoplasia, typically associated with abnormalities of the ears and eyelids, and with alopecia." [PMID:25772936]
+synonym: "MFDA" EXACT []
+xref: OMIM:616367
+is_a: DOID:225 ! syndrome
+created_by: elvira
+creation_date: 2015-09-17T16:20:00Z
+
+[Term]
+id: DOID:0060366
+name: Hennekam syndrome
+def: "A lymphatic system disease characterized by he presence of intestinal lymphangiectasia, mental retardation, and characteristic facial anomalies. It in inherited in an autosomal recessive pattern. Most individuals with Hennekam syndrome have characteristic facial abnormalities, such as a flat face with accompanying puffy eyelids and hypertelorism; the nasal bridge is typically flat and the ears are typically small. Congenital extremity and genital lymphedema is present in most patients." [PMID:14564208, PMID:24870712, PMID:2624276, url:http\://ghr.nlm.nih.gov/condition/hennekam-syndrome, url:https\://en.wikipedia.org/wiki/Hennekam_syndrome]
+synonym: "Hennekam lymphangiectasia-lymphedema syndrome" EXACT []
+synonym: "lymphedem-lymphangiectasia-intellectual disability syndrome" EXACT []
+xref: ICD10CM:Q87.8
+xref: MSH:C537255
+xref: OMIM:235510
+xref: OMIM:616006
+xref: ORDO:2136
+xref: UMLS_CUI:C0340834
+is_a: DOID:75 ! lymphatic system disease
+created_by: elvira
+creation_date: 2015-09-17T16:36:59Z
+
+[Term]
+id: DOID:0060367
+name: autosomal dominant Parkinson disease 1
+def: "A Parkinson's disease caused by mutation in the alpha-synuclein gene, SNCA, on chromosome 4q22.1." [PMID:22315721, url:http\://www.omim.org/entry/168601]
+synonym: "PARK1" EXACT []
+xref: OMIM:168601
+xref: ORDO:411601
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T16:48:14Z
+
+[Term]
+id: DOID:0060368
+name: autosomal recessive juvenile Parkinson disease 2
+def: "A Parkinson's disease caused by mutation in the parkin gene, PARK2, on chromosome 6q25.2-q27." [PMID:22315721]
+synonym: "PARK2" EXACT []
+xref: OMIM:600116
+xref: ORDO:2828
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T16:56:33Z
+
+[Term]
+id: DOID:0060369
+name: early-onset Parkinson disease 6
+def: "A Parkinson's disease caused by mutations in the PINK1 gene located on chromosome 1p36.12." [PMID:22315721]
+synonym: "autosomal recessive early-onset Parkinson disease 6" EXACT []
+synonym: "PARK6" EXACT []
+xref: OMIM:605909
+xref: ORDO:2828
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T17:00:11Z
+
+[Term]
+id: DOID:0060370
+name: autosomal recessive early-onset Parkinson disease 7
+def: "A Parkinson's disease caused by homozygous or compound heterozygous mutation in the DJ1 gene on chromosome 1p36." [PMID:22315721]
+synonym: "PARK7" EXACT []
+xref: OMIM:606324
+xref: ORDO:2828
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T17:04:57Z
+
+[Term]
+id: DOID:0060371
+name: autosomal dominant Parkinson disease 8
+def: "A Parkinson's disease caused by heterozygous mutation in the gene encoding dardarin , LRRK2, located on chromosome 12q12." [PMID:22315721]
+synonym: "PARK8" EXACT []
+xref: OMIM:607060
+xref: ORDO:411602
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T17:07:35Z
+
+[Term]
+id: DOID:0060372
+name: autosomal recessive early-onset Parkinson disease 15
+def: "A Parkinson's disease caused by mutation in the FBXO7 gene located on chromosome 22q12.3." [PMID:22315721]
+synonym: "pallidopyramidal syndrome" EXACT []
+synonym: "PARK15" EXACT []
+synonym: "Parkinsonian-pyramidal syndrome" EXACT []
+xref: OMIM:260300
+xref: ORDO:171695
+is_a: DOID:14330 ! Parkinson's disease
+created_by: elvira
+creation_date: 2015-09-17T17:13:37Z
 
 [Term]
 id: DOID:0070001
@@ -19505,6 +19692,7 @@ xref: ICD9CM:378.54
 xref: MSH:D020434
 xref: NCI:C27592
 xref: NCI:C27593
+xref: OMIM:100200
 xref: SNOMEDCT_US_2015_03_01:14720007
 xref: SNOMEDCT_US_2015_03_01:230533001
 xref: SNOMEDCT_US_2015_03_01:398760006
@@ -42191,14 +42379,11 @@ xref: MSH:D010300
 xref: NCI:C26845
 xref: NCI:OMFAQ
 xref: OMIM:168600
-xref: OMIM:168601
 xref: OMIM:260300
 xref: OMIM:300557
 xref: OMIM:556500
-xref: OMIM:600116
 xref: OMIM:602404
 xref: OMIM:605543
-xref: OMIM:605909
 xref: OMIM:606324
 xref: OMIM:606693
 xref: OMIM:606852
@@ -42469,7 +42654,6 @@ is_a: DOID:2537 ! inflammatory and toxic neuropathy
 id: DOID:1441
 name: spinocerebellar ataxia
 def: "A spinocerebellar degeneration that is characterized by degeneration of the cerebellum leading to loss of muscle coordination." [url:http\://www.ncbi.nlm.nih.gov/books/NBK22234/]
-synonym: "Spinocerebellar ataxia (disorder)" EXACT [SNOMEDCT_2005_07_31:129609000]
 xref: MSH:D020754
 xref: NCI:C82341
 xref: OMIM:117210
